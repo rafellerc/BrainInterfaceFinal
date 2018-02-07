@@ -50,7 +50,7 @@ C'est le noeud qui reçoit les échantillons, les traite et envoie les messages 
 4) Finalement, dans un autre terminal exécutez le noeud /bci_source (comme décrit dans le rapport):
 > $ rosrun bci_robot bci_source.py [full_path_to_data_file]
 
-où ce chemin correspond à le path complet à un des fichiers data qui se trouvent dans /BrainInterfaceFinal/obj . Vous pouvez choisir "herve002_labeled.txt" par exemple.
+où ce chemin correspond à le path complet à un des fichiers data qui se trouvent dans /BrainInterfaceFinal/obj . Vous pouvez choisir "herve002_labeled.txt" par exemple. Une fois que le noeud termine de publier le contenu du fichier data, il s'arrête et il faudra le lancer à nouveau.
 
 Si vous n'avez pas le robot mais vous voulez tester le programme quand même, exécutez-le avec turtlesim. Pour le faire, suivez les mêmes pas, mais en '2)' lancez le noeud suivant:
 > $ rosrun turtlesim turtlesim_node
