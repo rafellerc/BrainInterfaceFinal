@@ -1,0 +1,2 @@
+bci_robot:kteams/kteams_driver:kteams/kteams_node
+-DCATKIN_DEVEL_PREFIX=/home/rafael/dev/sir/BrainInterfaceFinal/ros_ws/devel -DCMAKE_INSTALL_PREFIX=/home/rafael/dev/sir/BrainInterfaceFinal/ros_ws/install -G Unix Makefiles

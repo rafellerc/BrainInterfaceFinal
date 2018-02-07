@@ -1,0 +1,8 @@
+prefix=/home/rafael/dev/sir/BrainInterfaceFinal/ros_ws/install
+
+Name: kteams_driver
+Description: Description of kteams_driver
+Version: 0.1.0
+Cflags: -I/home/rafael/dev/sir/BrainInterfaceFinal/ros_ws/install/include
+Libs: -L/home/rafael/dev/sir/BrainInterfaceFinal/ros_ws/install/lib -lkteams_driver
+Requires: 
