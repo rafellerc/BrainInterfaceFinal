@@ -17,11 +17,14 @@ Les étapes d’optimisation décrites dans le rapport sont présentés sur le s
 
 ## Commment Builder et Exécuter le programme ROS
 
-D'abord on doit configurer l'environnement ROS, où la distribution <distro> est celle installé dans votre PC:  
-> $ source /opt/ros/<distro>/setup.bash
+D'abord on doit configurer l'environnement ROS, où on suppose que vous avez la distribution kinetic de ROS. Si vous avez une autre distro, remplacez kinetic pour la distro correspondante.   
+> $ source /opt/ros/kinetic/setup.bash
 
 Après, allez sur le répertoire du projet (normalement '/BrainInterfaceFinal'), allez sur BrainInterfaceFinal/ros_ws e buildez les packages avec catkin:
 > $ catkin_make
+
+Á partir de maintenant, chaque nouveau terminal devra être sourcé avec la commande suivante, (on suppose être dans BrainInterfaceFinal/ros_ws):
+> $ source devel/setup.bash
 
 Après la fin de la build, il faut être sûr que les fichier des noeuds sont exécutables, donc allez sur BrainInterfaceFinal/ros_ws/src/bci_robot/scripts et tapez:
 > $ chmod +x bci_source.py signal_pro.py
